@@ -1,5 +1,6 @@
 FROM gitpod/workspace-full
 
+USER gitpod
 
 ENV PATH=/usr/lib/dart/bin:$PATH
 
